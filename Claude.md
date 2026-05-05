@@ -96,7 +96,7 @@ Bullets:
 Your internal systems no longer match how the business operates.
 Critical workflows are stuck in spreadsheets, emails, or legacy software.
 Delivery has slowed because the architecture is fragile or unclear.
-You need senior technical leadership, but not necessarily a full-time CTO.
+You need senior technical leadership, but not necessarily a permanent CTO.
 Your product needs to move from prototype to reliable production system.
 You want practical AI automation, not experiments that never leave the lab.
 You are replacing, integrating, or rescuing ERP, WMS, MRP, or workflow systems.
@@ -202,7 +202,7 @@ Provolve helps businesses make complex systems simpler, more reliable, and more 
 Service cards
 Fractional CTO
 
-For companies that need senior technical direction without hiring a full-time CTO.
+For companies that need senior technical direction without hiring a permanent CTO.
 
 Includes:
 
@@ -307,7 +307,7 @@ Fractional CTO for founders, SMEs, and scale-ups
 
 Subheadline
 
-Senior technology leadership without the cost or commitment of a full-time CTO.
+Senior technology leadership without the cost or commitment of a permanent CTO.
 
 Good-fit situations
 You need a technical strategy before hiring a team.
