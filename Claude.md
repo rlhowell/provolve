@@ -610,7 +610,7 @@ About Provolve
 
 Intro
 
-Provolve is led by a hands-on CTO, founder, and principal architect with over 20 years’ experience designing, building, and rescuing business-critical software systems.
+Provolve is led by a hands-on CTO, founder, and principal architect with over 25 years’ experience designing, building, and rescuing business-critical software systems.
 
 Founder profile
 
