@@ -16,9 +16,9 @@
   <!-- Marquee: full-width infinite scroll -->
   <div class="relative">
     <!-- Left fade -->
-    <div class="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 bg-linear-[90deg,#f7f9fa,transparent]"></div>
+    <div class="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 bg-linear-[90deg,#f7f9fa,transparent] hidden lg:block"></div>
     <!-- Right fade -->
-    <div class="pointer-events-none absolute right-0 top-0 z-10 h-full w-16 bg-linear-[270deg,#f7f9fa,transparent]"></div>
+    <div class="pointer-events-none absolute right-0 top-0 z-10 h-full w-16 bg-linear-[270deg,#f7f9fa,transparent] hidden lg:block"></div>
 
     <div class="marquee-track gap-5 py-1 pl-5">
 
@@ -229,7 +229,7 @@
       <!-- ========== DUPLICATE CARDS (aria-hidden, different SVG IDs) ========== -->
 
       <!-- Card 1 dupe: Hooped -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a2d51,#0d4a8a]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g7b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g7b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -258,7 +258,7 @@
       </div>
 
       <!-- Card 2 dupe: AI Workflow -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#7a5a00,#c49a1e]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g3b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g3b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -286,7 +286,7 @@
       </div>
 
       <!-- Card 3 dupe: ERP/WMS -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#25282b,#4f5358]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g2b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g2b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -314,7 +314,7 @@
       </div>
 
       <!-- Card 4 dupe: Field service -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#004d62,#007f99]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g1b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g1b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -342,7 +342,7 @@
       </div>
 
       <!-- Card 5 dupe: HPC/Rust -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a0f1a,#1a2d4a]">
           <svg class="absolute inset-0 h-full w-full opacity-15" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g4b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g4b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -370,7 +370,7 @@
       </div>
 
       <!-- Card 6 dupe: Freight -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#003d5c,#006b99]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g5b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g5b)"/></svg>
           <div class="absolute bottom-5 left-5">
@@ -398,7 +398,7 @@
       </div>
 
       <!-- Card 7 dupe: E-commerce -->
-      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+      <div aria-hidden="true" class="marquee-dupe w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
         <div class="relative h-44 overflow-hidden bg-linear-[135deg,#5a3000,#a05a1a]">
           <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g6b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g6b)"/></svg>
           <div class="absolute bottom-5 left-5">

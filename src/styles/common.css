@@ -194,3 +194,25 @@
   animation-play-state: paused;
 }
 
+/* Mobile: swipeable scroll instead of animation */
+@media (max-width: 1023px) {
+  .marquee-track {
+    animation: none;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-right: 1.25rem;
+  }
+  .marquee-track::-webkit-scrollbar {
+    display: none;
+  }
+  .marquee-track > * {
+    scroll-snap-align: start;
+  }
+  .marquee-dupe {
+    display: none;
+  }
+}
+
