@@ -1,0 +1,94 @@
+<!-- Footer -->
+<footer class="bg-neutral-950 text-white">
+  <div class="main-container px-5">
+    <div class="grid grid-cols-12 gap-x-8 gap-y-12 py-16 md:py-20">
+
+      <!-- Brand column -->
+      <div class="col-span-12 md:col-span-4">
+        <img src="./images/logo.svg" alt="Provolve" class="h-9 w-auto brightness-0 invert" />
+        <p class="mt-4 max-w-[280px] text-tagline-2 text-neutral-400 leading-relaxed">
+          Fractional CTO and Principal Architect services for complex operational software.
+        </p>
+        <a
+          href="./contact.html"
+          class="mt-6 inline-flex btn btn-primary btn-sm"
+        >
+          Book a Triage Call
+        </a>
+      </div>
+
+      <!-- Services column -->
+      <div class="col-span-6 md:col-span-2 md:col-start-6">
+        <p class="mb-4 text-tagline-2 font-semibold uppercase tracking-wider text-neutral-500">Services</p>
+        <ul class="space-y-2.5">
+          <li><a href="./services-fractional-cto.html" class="footer-link">Fractional CTO</a></li>
+          <li><a href="./services-principal-architecture.html" class="footer-link">Principal Architecture</a></li>
+          <li><a href="./services-systems-rescue.html" class="footer-link">Systems Rescue</a></li>
+          <li><a href="./services-ai-workflow.html" class="footer-link">AI Workflow Automation</a></li>
+        </ul>
+      </div>
+
+      <!-- Company column -->
+      <div class="col-span-6 md:col-span-2">
+        <p class="mb-4 text-tagline-2 font-semibold uppercase tracking-wider text-neutral-500">Company</p>
+        <ul class="space-y-2.5">
+          <li><a href="./index.html" class="footer-link">Home</a></li>
+          <li><a href="./case-studies.html" class="footer-link">Case Studies</a></li>
+          <li><a href="./about.html" class="footer-link">About</a></li>
+          <li><a href="./contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact column -->
+      <div class="col-span-12 md:col-span-2">
+        <p class="mb-4 text-tagline-2 font-semibold uppercase tracking-wider text-neutral-500">Get in touch</p>
+        <ul class="space-y-2.5">
+          <li>
+            <a href="mailto:hello@provolve.com" class="footer-link">hello@provolve.com</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/provolve" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Credentials bar -->
+    <div class="border-t border-neutral-800 py-6">
+      <p class="text-tagline-3 text-neutral-600 mb-4">Credentials &amp; certifications</p>
+      <div class="flex flex-wrap items-center gap-4">
+
+        <!-- BCS – dark logo, shows well on dark footer -->
+        <div class="rounded-lg overflow-hidden border border-neutral-700 h-12 flex items-center justify-center px-2">
+          <img src="./images/bcs.webp" alt="BCS – The Chartered Institute for IT" class="h-10 w-auto" />
+        </div>
+
+        <!-- Oracle – linked to certification credential -->
+        <a
+          href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=E7F07599F4E55114DB731FC674E707AB2A095B7406329565DBC14B5367026793"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rounded-lg bg-white border border-neutral-700 px-4 py-2 flex items-center justify-center h-12 hover:opacity-90 transition-opacity"
+          title="View Oracle certification credential"
+        >
+          <img src="./images/oracle.png" alt="Oracle Certified" class="h-5 w-auto" />
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="flex flex-col items-center justify-between gap-4 border-t border-neutral-800 py-6 sm:flex-row">
+      <p class="text-tagline-3 text-neutral-600 m-0">
+        &copy; <span id="footer-year">2025</span> Provolve Ltd. All rights reserved.
+      </p>
+      <p class="text-tagline-3 text-neutral-600 m-0">
+        Registered in England &amp; Wales
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>

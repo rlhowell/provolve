@@ -1,0 +1,29 @@
+/* ========== NAV SCROLL BEHAVIOUR ========== */
+
+.pv-header {
+  transition: all 0.4s ease-in-out;
+}
+
+.pv-header.scrolled {
+  @apply shadow-2;
+  background-color: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(20px);
+}
+
+/* Active nav link indicator */
+.nav-link {
+  @apply relative text-tagline-1 font-normal text-neutral-600 transition-colors duration-200 hover:text-neutral-950;
+}
+
+.nav-link.active {
+  @apply text-primary-600;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 h-px w-0 bg-primary-600 transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}

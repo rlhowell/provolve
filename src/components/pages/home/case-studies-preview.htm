@@ -1,0 +1,439 @@
+<!-- Case study highlights: auto-scrolling marquee -->
+<section class="section-py bg-neutral-50 overflow-hidden" id="case-studies">
+  <div class="main-container">
+
+    <!-- Section header -->
+    <div data-reveal class="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <p class="section-label-gold mb-2">Real work delivered</p>
+        <h2 class="text-neutral-800">Case study highlights</h2>
+      </div>
+      <a href="./case-studies.html" class="btn btn-outline shrink-0 self-start sm:self-auto">View all</a>
+    </div>
+
+  </div>
+
+  <!-- Marquee: full-width infinite scroll -->
+  <div class="relative">
+    <!-- Left fade -->
+    <div class="pointer-events-none absolute left-0 top-0 z-10 h-full w-16 bg-linear-[90deg,#f7f9fa,transparent]"></div>
+    <!-- Right fade -->
+    <div class="pointer-events-none absolute right-0 top-0 z-10 h-full w-16 bg-linear-[270deg,#f7f9fa,transparent]"></div>
+
+    <div class="marquee-track gap-5 py-1 pl-5">
+
+      <!-- ========== ORIGINAL CARDS ========== -->
+
+      <!-- Card 1: Hooped (construction workforce) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a2d51,#0d4a8a]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g7" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g7)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h8" stroke="white" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="15" r="2.5" stroke="white" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Construction</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">1000s of operatives</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/hooped.png" alt="Hooped" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Construction workforce management platform</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Real-time visibility of labour, compliance, and site activity for specialist contractors — replacing paperwork with a live digital system.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Flutter</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">React</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">iOS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Android</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: AI Workflow / FlowStudio -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#7a5a00,#c49a1e]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g3" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g3)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="2" y="3" width="16" height="14" rx="2" stroke="white" stroke-width="1.5"/><path d="M6 10h8M6 7h4M6 13h5" stroke="white" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="5" r="2" fill="white"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/70">AI Platform</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/20 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">FlowStudio</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/flowfoundry.png" alt="FlowFoundry" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">AI workflow platform — FlowStudio</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Low-code LLM workflow platform built with React, Rust, and Python for business users and developers.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">React</span>
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">Rust</span>
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">LLM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: ERP/WMS (Stannah) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#25282b,#4f5358]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g2" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g2)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="2" stroke="white" stroke-width="1.5"/><path d="M2 8h16M8 2v16" stroke="white" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">ERP / WMS</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">Multi-facility</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/stannah.png" alt="Stannah" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">ERP/WMS/MRP platform for commercial operations</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Full ERP, WMS, MRP, ordering, accounting, and product configurator across multiple facilities.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">ERP</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">DDMRP</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Java</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Field service (Stannah) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#004d62,#007f99]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g1" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g1)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5 text-white" viewBox="0 0 20 20" fill="none"><path d="M10 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM4 18c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Field Service</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">1000s served</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/stannah.png" alt="Stannah" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Field-service platform for thousands of engineers</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Legacy replacement with Android app, real-time sync, and contract management across 13 branches.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Android</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Java</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">13 branches</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: HPC/Rust (Northern Data) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a0f1a,#1a2d4a]">
+          <svg class="absolute inset-0 h-full w-full opacity-15" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g4" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g4)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/10 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="11" y="3" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="3" y="11" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="11" y="11" width="6" height="6" rx="1" stroke="#C49A1E" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/50">HPC / Rust</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-primary-400/20 px-3 py-1 backdrop-blur-sm border border-primary-400/20">
+            <span class="text-tagline-3 font-semibold text-primary-300">&lt;1ms latency</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/northern-data.png" alt="Northern Data" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">HPC power-curtailment software</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Multithreaded, low-latency Rust software for data-centre power management with secure gRPC.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Rust</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Flutter</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">gRPC</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Freight (AMI) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#003d5c,#006b99]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g5" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g5)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M2 10h16M10 2l8 8-8 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Aviation Freight</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">US airports</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/ami.png" alt="Air Menzies International" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Freight operations platform</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Booking, real-time pricing, warehouse tracking, and compliance tooling for US airport freight operations.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Aviation</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">WMS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Compliance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7: E-commerce (IWOOT / Born Gifted) -->
+      <div class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#5a3000,#a05a1a]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g6" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g6)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M2 3h2l2.4 8.5A1 1 0 0 0 7.3 12h8.4a1 1 0 0 0 .95-.68L18 6H5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="16.5" r="1.5" fill="white"/><circle cx="15" cy="16.5" r="1.5" fill="white"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">E-commerce</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">Award nominee</span>
+          </div>
+          <div class="absolute bottom-4 right-4 flex flex-col gap-1">
+            <div class="rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+              <img src="./images/iwoot.png" alt="I Want One Of Those" class="h-3.5 w-auto" />
+            </div>
+            <div class="rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+              <img src="./images/borngifted.png" alt="Born Gifted" class="h-3.5 w-auto" />
+            </div>
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">E-commerce WMS and operations systems</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">WMS, call centre, payment gateways, and fulfilment systems for a high-volume gifting retailer.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">WMS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Retail</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Payments</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== DUPLICATE CARDS (aria-hidden, different SVG IDs) ========== -->
+
+      <!-- Card 1 dupe: Hooped -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a2d51,#0d4a8a]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g7b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g7b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h8" stroke="white" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="15" r="2.5" stroke="white" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Construction</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">1000s of operatives</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/hooped.png" alt="Hooped" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Construction workforce management platform</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Real-time visibility of labour, compliance, and site activity for specialist contractors — replacing paperwork with a live digital system.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Flutter</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">React</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">iOS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Android</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 dupe: AI Workflow -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#7a5a00,#c49a1e]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g3b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g3b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="2" y="3" width="16" height="14" rx="2" stroke="white" stroke-width="1.5"/><path d="M6 10h8M6 7h4M6 13h5" stroke="white" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="5" r="2" fill="white"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/70">AI Platform</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/20 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">FlowStudio</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/flowfoundry.png" alt="FlowFoundry" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">AI workflow platform — FlowStudio</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Low-code LLM workflow platform built with React, Rust, and Python for business users and developers.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">React</span>
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">Rust</span>
+            <span class="rounded-full bg-gold-50 border border-gold/20 px-2.5 py-1 text-[10px] font-medium text-gold-dark">LLM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 dupe: ERP/WMS -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#25282b,#4f5358]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g2b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g2b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="2" stroke="white" stroke-width="1.5"/><path d="M2 8h16M8 2v16" stroke="white" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">ERP / WMS</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">Multi-facility</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/stannah.png" alt="Stannah" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">ERP/WMS/MRP platform for commercial operations</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Full ERP, WMS, MRP, ordering, accounting, and product configurator across multiple facilities.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">ERP</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">DDMRP</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Java</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 dupe: Field service -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#004d62,#007f99]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g1b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g1b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5 text-white" viewBox="0 0 20 20" fill="none"><path d="M10 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM4 18c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Field Service</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">1000s served</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/stannah.png" alt="Stannah" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Field-service platform for thousands of engineers</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Legacy replacement with Android app, real-time sync, and contract management across 13 branches.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Android</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Java</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">13 branches</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 dupe: HPC/Rust -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#0a0f1a,#1a2d4a]">
+          <svg class="absolute inset-0 h-full w-full opacity-15" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g4b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g4b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/10 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="11" y="3" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="3" y="11" width="6" height="6" rx="1" stroke="#4FCBE0" stroke-width="1.5"/><rect x="11" y="11" width="6" height="6" rx="1" stroke="#C49A1E" stroke-width="1.5"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/50">HPC / Rust</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-primary-400/20 px-3 py-1 backdrop-blur-sm border border-primary-400/20">
+            <span class="text-tagline-3 font-semibold text-primary-300">&lt;1ms latency</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/northern-data.png" alt="Northern Data" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">HPC power-curtailment software</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Multithreaded, low-latency Rust software for data-centre power management with secure gRPC.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Rust</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Flutter</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">gRPC</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 dupe: Freight -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#003d5c,#006b99]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g5b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g5b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M2 10h16M10 2l8 8-8 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">Aviation Freight</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">US airports</span>
+          </div>
+          <div class="absolute bottom-4 right-4 rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+            <img src="./images/ami.png" alt="Air Menzies International" class="h-4 w-auto" />
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">Freight operations platform</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">Booking, real-time pricing, warehouse tracking, and compliance tooling for US airport freight operations.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Aviation</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">WMS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Compliance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 dupe: E-commerce -->
+      <div aria-hidden="true" class="w-72 shrink-0 overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-card">
+        <div class="relative h-44 overflow-hidden bg-linear-[135deg,#5a3000,#a05a1a]">
+          <svg class="absolute inset-0 h-full w-full opacity-10" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="g6b" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#g6b)"/></svg>
+          <div class="absolute bottom-5 left-5">
+            <div class="mb-2 flex size-10 items-center justify-center rounded-xl bg-white/15 backdrop-blur-sm">
+              <svg class="size-5" viewBox="0 0 20 20" fill="none"><path d="M2 3h2l2.4 8.5A1 1 0 0 0 7.3 12h8.4a1 1 0 0 0 .95-.68L18 6H5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="16.5" r="1.5" fill="white"/><circle cx="15" cy="16.5" r="1.5" fill="white"/></svg>
+            </div>
+            <span class="text-[10px] font-semibold uppercase tracking-wider text-white/60">E-commerce</span>
+          </div>
+          <div class="absolute right-4 top-4 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
+            <span class="text-tagline-3 font-semibold text-white">Award nominee</span>
+          </div>
+          <div class="absolute bottom-4 right-4 flex flex-col gap-1">
+            <div class="rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+              <img src="./images/iwoot.png" alt="I Want One Of Those" class="h-3.5 w-auto" />
+            </div>
+            <div class="rounded-lg bg-white px-2.5 py-1.5 shadow-sm">
+              <img src="./images/borngifted.png" alt="Born Gifted" class="h-3.5 w-auto" />
+            </div>
+          </div>
+        </div>
+        <div class="p-5">
+          <h4 class="text-tagline-1 font-semibold text-neutral-800 mb-2 leading-snug">E-commerce WMS and operations systems</h4>
+          <p class="text-tagline-3 text-neutral-500 leading-relaxed m-0">WMS, call centre, payment gateways, and fulfilment systems for a high-volume gifting retailer.</p>
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">WMS</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Retail</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1 text-[10px] font-medium text-neutral-600">Payments</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="main-container mt-8 text-center">
+    <a href="./case-studies.html" class="btn btn-outline">View full case studies</a>
+  </div>
+</section>

@@ -1,0 +1,89 @@
+<!-- Navigation -->
+<header class="pv-header fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-200/80">
+  <div class="main-container">
+    <div class="flex h-16 items-center justify-between md:h-[70px]">
+
+      <!-- Logo -->
+      <a href="./index.html" class="shrink-0" aria-label="Provolve home">
+        <img
+          src="./images/logo.svg"
+          alt="Provolve"
+          class="h-8 w-auto md:h-9"
+          loading="eager"
+        />
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden items-center gap-8 xl:flex" aria-label="Main navigation">
+        <a href="./index.html" class="nav-link">Home</a>
+        <a href="./services.html" class="nav-link">Services</a>
+        <a href="./case-studies.html" class="nav-link">Case Studies</a>
+        <a href="./testimonials.html" class="nav-link">Testimonials</a>
+        <a href="./about.html" class="nav-link">About</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- CTA + hamburger -->
+      <div class="flex items-center gap-3">
+        <a
+          href="./contact.html"
+          class="btn btn-primary hidden xl:inline-flex"
+          aria-label="Book a Technical Triage Call"
+        >
+          Book a Triage Call
+        </a>
+        <button
+          class="nav-hamburger flex size-10 cursor-pointer flex-col items-center justify-center gap-[5px] rounded-full border border-neutral-200 bg-white xl:hidden"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span class="block h-0.5 w-5 bg-neutral-700 transition-all"></span>
+          <span class="block h-0.5 w-5 bg-neutral-700 transition-all"></span>
+          <span class="block h-0.5 w-3 self-end bg-neutral-700 transition-all"></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu-overlay" aria-hidden="true"></div>
+
+<!-- Mobile menu panel -->
+<div class="mobile-menu-panel" role="dialog" aria-label="Mobile navigation">
+  <div class="flex h-full flex-col p-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+      <img src="./images/logo.svg" alt="Provolve" class="h-8 w-auto" />
+      <button class="mobile-menu-close flex size-9 items-center justify-center rounded-full border border-neutral-200 bg-neutral-50" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Links -->
+    <nav class="mt-8 flex flex-col gap-1" aria-label="Mobile navigation">
+      <a href="./index.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">Home</a>
+      <a href="./services.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">Services</a>
+      <div class="ml-4 flex flex-col gap-0.5">
+        <a href="./services-fractional-cto.html" class="rounded-xl px-4 py-2 text-tagline-2 text-neutral-600 transition-colors hover:bg-primary-50 hover:text-primary-700">Fractional CTO</a>
+        <a href="./services-principal-architecture.html" class="rounded-xl px-4 py-2 text-tagline-2 text-neutral-600 transition-colors hover:bg-primary-50 hover:text-primary-700">Principal Architecture</a>
+        <a href="./services-systems-rescue.html" class="rounded-xl px-4 py-2 text-tagline-2 text-neutral-600 transition-colors hover:bg-primary-50 hover:text-primary-700">Systems Rescue</a>
+        <a href="./services-ai-workflow.html" class="rounded-xl px-4 py-2 text-tagline-2 text-neutral-600 transition-colors hover:bg-primary-50 hover:text-primary-700">AI Workflow Automation</a>
+      </div>
+      <a href="./case-studies.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">Case Studies</a>
+      <a href="./testimonials.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">Testimonials</a>
+      <a href="./about.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">About</a>
+      <a href="./contact.html" class="rounded-xl px-4 py-3 text-tagline-1 font-medium text-neutral-800 transition-colors hover:bg-primary-50 hover:text-primary-700">Contact</a>
+    </nav>
+
+    <!-- CTA at bottom -->
+    <div class="mt-auto">
+      <a href="./contact.html" class="btn btn-primary w-full justify-center">
+        Book a Triage Call
+      </a>
+    </div>
+  </div>
+</div>

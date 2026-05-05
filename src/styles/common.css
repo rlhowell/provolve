@@ -1,0 +1,196 @@
+* {
+  @apply box-border;
+}
+
+/* ========== REVEAL ANIMATION ========== */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-reveal][data-direction='left'] {
+  transform: translateX(-28px);
+}
+
+[data-reveal][data-direction='right'] {
+  transform: translateX(28px);
+}
+
+[data-reveal][data-direction='up'] {
+  transform: translateY(-28px);
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* ========== CONTAINER ========== */
+@utility main-container {
+  @apply lp:px-0 mx-auto max-w-[1200px] px-5;
+}
+
+/* ========== SECTION SPACING ========== */
+@utility section-py {
+  @apply py-16 md:py-20 xl:py-24;
+}
+
+/* ========== BADGE / TAG ========== */
+@utility pv-badge {
+  @apply inline-flex items-center gap-2 rounded-full border border-primary-200 bg-primary-50 px-3.5 py-1.5 text-tagline-2 font-medium text-primary-700;
+}
+
+@utility pv-badge-dark {
+  @apply inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-tagline-2 font-medium text-white;
+}
+
+/* ========== SECTION LABEL ========== */
+@utility section-label {
+  @apply text-tagline-2 font-semibold uppercase tracking-wider text-primary-600;
+}
+
+/* ========== CARD ========== */
+@utility pv-card {
+  @apply rounded-2xl border border-neutral-200 bg-white p-6 md:p-8;
+  box-shadow: var(--shadow-card);
+}
+
+/* ========== DIVIDER ========== */
+@utility pv-divider {
+  @apply h-px w-full bg-neutral-200;
+}
+
+/* ========== BULLET LIST ========== */
+.check-list {
+  @apply space-y-3;
+  li {
+    @apply flex items-start gap-3 text-tagline-1 text-neutral-600;
+    &::before {
+      content: '';
+      @apply mt-0.5 size-5 shrink-0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Ccircle cx='10' cy='10' r='10' fill='%23e5f9fc'/%3E%3Cpath d='M6 10.5l2.5 2.5 5.5-5.5' stroke='%2300a6c8' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.check-list-dark {
+  @apply space-y-3;
+  li {
+    @apply flex items-start gap-3 text-tagline-1 text-white/80;
+    &::before {
+      content: '';
+      @apply mt-0.5 size-5 shrink-0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Ccircle cx='10' cy='10' r='10' fill='%23ffffff22'/%3E%3Cpath d='M6 10.5l2.5 2.5 5.5-5.5' stroke='%234fcbe0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+/* ========== FOOTER ========== */
+@utility footer-link {
+  @apply text-tagline-2 text-neutral-400 relative inline-block overflow-hidden transition-colors duration-300 hover:text-white;
+}
+
+/* ========== MOBILE MENU ========== */
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background-color: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+.mobile-menu-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Panel slides in from the right */
+.mobile-menu-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  height: 100%;
+  width: min(340px, 90vw);
+  background-color: #ffffff;
+  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.12);
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow-y: auto;
+}
+.mobile-menu-panel.open {
+  transform: translateX(0);
+}
+
+/* ========== PROCESS STEP LINE ========== */
+.step-connector {
+  @apply absolute left-6 top-12 bottom-0 w-px bg-neutral-200;
+}
+
+/* ========== NUMBER BADGE ========== */
+@utility step-number {
+  @apply flex size-12 shrink-0 items-center justify-center rounded-full border border-primary-200 bg-primary-50 text-heading-6 font-semibold text-primary-700;
+}
+
+/* ========== HOVER LIFT ========== */
+@utility hover-lift {
+  @apply transition-transform duration-300 ease-out hover:-translate-y-1;
+}
+
+/* ========== TEAL GLOW ========== */
+.teal-glow {
+  box-shadow: 0 0 60px -10px rgba(0, 166, 200, 0.3);
+}
+
+/* ========== GOLD ACCENT UTILITIES ========== */
+@utility badge-gold {
+  @apply inline-flex items-center gap-1.5 rounded-full border border-gold/30 bg-gold-50 px-3.5 py-1.5 text-tagline-3 font-semibold uppercase tracking-wider text-gold-dark;
+}
+
+@utility badge-gold-dark {
+  @apply inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-tagline-3 font-semibold uppercase tracking-wider text-gold-light;
+}
+
+@utility section-label-gold {
+  @apply text-tagline-2 font-semibold uppercase tracking-wider text-gold;
+}
+
+@utility gold-number {
+  @apply font-inter-tight font-semibold text-gold;
+}
+
+/* Gold left-border callout */
+.gold-callout {
+  border-left: 3px solid var(--color-gold);
+  @apply bg-gold-50 rounded-r-xl pl-5 pr-4 py-4;
+}
+
+/* Stat card */
+@utility stat-card {
+  @apply text-center;
+}
+
+/* ========== MARQUEE ========== */
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 42s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+

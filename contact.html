@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Book a technical triage call with Provolve. A short, focused conversation about your software platform, architecture challenge, or delivery problem. No pitch." />
+    <meta name="keywords" content="contact Provolve, book fractional CTO call, technical triage call, software architecture consultation" />
+    <link rel="canonical" href="https://provolve.com/contact.html" />
+    <meta property="og:url" content="https://provolve.com/contact.html" />
+    <meta property="og:title" content="Book a Technical Triage Call | Provolve" />
+    <meta property="og:description" content="Book a technical triage call with Provolve. A short, focused conversation about your software platform, architecture challenge, or delivery problem. No pitch." />
+    <Component src="src/components/shared/head-links.htm" />
+    <title>Book a Technical Triage Call | Provolve</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Provolve",
+      "url": "https://provolve.com/contact.html",
+      "description": "Book a technical triage call to discuss your software platform, architecture challenge, or delivery problem.",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Provolve",
+        "email": "hello@provolve.com",
+        "url": "https://provolve.com"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <Component src="src/components/shared/nav.htm" />
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-linear-[135deg,#005e70,#007f99] pt-32 pb-16 md:pt-36 md:pb-20">
+
+      <div class="main-container relative z-10">
+        <div data-reveal class="max-w-[600px]">
+          <p class="pv-badge-dark mb-4">Let's talk</p>
+          <h1 class="text-white mb-4">Book a Technical Triage Call</h1>
+          <p class="text-white/70 text-tagline-1 leading-relaxed max-w-[520px]">
+            A short, focused call to discuss what is working, what is blocked, and what your next sensible move should be. No pitch. Just a practical conversation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section-py bg-neutral-50">
+        <div class="main-container">
+          <div class="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-16">
+
+            <!-- Contact form -->
+            <div data-reveal class="lg:col-span-3">
+              <h2 class="text-heading-5 text-neutral-800 mb-6">Send a message</h2>
+              <form
+                id="contact-form"
+                class="space-y-5"
+                novalidate
+              >
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  <div>
+                    <label for="name" class="mb-1.5 block text-tagline-2 font-medium text-neutral-700">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      placeholder="Your name"
+                      class="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-tagline-1 text-neutral-800 placeholder:text-neutral-400 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label for="email" class="mb-1.5 block text-tagline-2 font-medium text-neutral-700">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      placeholder="you@company.com"
+                      class="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-tagline-1 text-neutral-800 placeholder:text-neutral-400 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label for="company" class="mb-1.5 block text-tagline-2 font-medium text-neutral-700">Company <span class="text-neutral-400 font-normal">(optional)</span></label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Company name"
+                    class="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-tagline-1 text-neutral-800 placeholder:text-neutral-400 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label for="service" class="mb-1.5 block text-tagline-2 font-medium text-neutral-700">What are you looking for?</label>
+                  <select
+                    id="service"
+                    name="service"
+                    class="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-tagline-1 text-neutral-800 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 transition-colors"
+                  >
+                    <option value="">Select a service area</option>
+                    <option value="fractional-cto">Fractional CTO</option>
+                    <option value="principal-architecture">Principal Architecture</option>
+                    <option value="systems-rescue">Systems Rescue &amp; Modernisation</option>
+                    <option value="ai-workflow">AI Workflow Automation</option>
+                    <option value="engineering">Hands-on Product Engineering</option>
+                    <option value="other">Something else</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="message" class="mb-1.5 block text-tagline-2 font-medium text-neutral-700">Tell me about your situation</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Describe the challenge you're facing — what's working, what isn't, and what you'd like to achieve."
+                    class="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-tagline-1 text-neutral-800 placeholder:text-neutral-400 focus:border-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-100 transition-colors resize-none"
+                  ></textarea>
+                </div>
+
+                <button type="submit" data-submit-btn class="btn btn-primary w-full justify-center sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed">
+                  <span data-btn-text>Send message</span>
+                  <svg class="size-4" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+
+                <p id="form-error" hidden class="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-tagline-2 text-red-700"></p>
+              </form>
+
+              <div id="form-success" hidden class="rounded-2xl border border-green-200 bg-green-50 px-6 py-8 text-center">
+                <svg class="mx-auto mb-3 size-10 text-green-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>
+                <p class="text-tagline-1 font-semibold text-neutral-800 mb-1">Message sent</p>
+                <p class="text-tagline-2 text-neutral-500">Thanks — I'll be in touch shortly.</p>
+              </div>
+            </div>
+
+            <!-- Sidebar info -->
+            <div data-reveal data-delay="0.1" class="lg:col-span-2">
+              <div class="space-y-6">
+
+                <div class="pv-card">
+                  <h3 class="text-heading-6 text-neutral-800 mb-3">What to expect</h3>
+                  <ul class="check-list">
+                    <li>A 30–45 minute call to understand your situation</li>
+                    <li>No sales pitch — just an honest conversation</li>
+                    <li>Clear thinking on what your options are</li>
+                    <li>A sense of whether Provolve is the right fit</li>
+                  </ul>
+                </div>
+
+                <div class="pv-card">
+                  <h3 class="text-heading-6 text-neutral-800 mb-3">Good topics to cover</h3>
+                  <ul class="space-y-2">
+                    <li class="text-tagline-2 text-neutral-600">Where your current system is holding the business back</li>
+                    <li class="text-tagline-2 text-neutral-600">What you've already tried or considered</li>
+                    <li class="text-tagline-2 text-neutral-600">What success looks like in 6–12 months</li>
+                    <li class="text-tagline-2 text-neutral-600">What your team and budget situation looks like</li>
+                  </ul>
+                </div>
+
+                <div class="rounded-2xl border border-primary-200 bg-primary-50 p-5">
+                  <p class="text-tagline-2 font-medium text-primary-700 mb-1">Email directly</p>
+                  <a href="mailto:hello@provolve.com" class="text-tagline-1 font-medium text-primary-800 hover:text-primary-900 transition-colors">hello@provolve.com</a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <Component src="src/components/shared/footer.htm" />
+    <!-- SCRIPT -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

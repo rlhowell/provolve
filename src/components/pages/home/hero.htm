@@ -1,0 +1,202 @@
+<!-- Home hero: split layout -->
+<section
+  class="relative min-h-screen overflow-hidden bg-linear-[160deg,#004d62_0%,#005e70_45%,#1a2830_100%]"
+  aria-label="Hero"
+>
+  <!-- Background decoration -->
+  <div class="pointer-events-none absolute inset-0 select-none" aria-hidden="true">
+    <div class="absolute -top-40 right-0 size-[700px] rounded-full bg-primary-600/8 blur-[100px]"></div>
+    <div class="absolute bottom-0 left-0 size-[400px] rounded-full bg-gold/5 blur-[80px]"></div>
+    <svg class="absolute inset-0 h-full w-full opacity-[0.035]" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="hero-grid" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+          <circle cx="1" cy="1" r="1" fill="white"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#hero-grid)"/>
+    </svg>
+  </div>
+
+  <div class="main-container relative z-10 flex min-h-screen items-center py-28 lg:py-32">
+    <div class="grid w-full grid-cols-1 items-center gap-12 lg:grid-cols-[1fr_420px] xl:grid-cols-[1fr_480px] lg:gap-16">
+
+      <!-- Left: text content -->
+      <div>
+        <div data-reveal data-delay="0.05" class="mb-5">
+          <span class="pv-badge-dark">
+            <span class="size-1.5 rounded-full bg-gold inline-block"></span>
+            Fractional CTO &amp; Principal Architect
+          </span>
+        </div>
+
+        <h1
+          data-reveal
+          data-delay="0.12"
+          class="text-white max-w-[620px]"
+        >
+          Fractional CTO and Principal Architect services for complex operational software
+        </h1>
+
+        <p
+          data-reveal
+          data-delay="0.2"
+          class="mt-5 max-w-[520px] text-white/65 text-tagline-1 leading-relaxed"
+        >
+          Provolve helps SMEs, scale-ups, and operational businesses rescue, modernise, and automate business-critical systems across ERP, WMS, field service, compliance, AI workflows, and internal platforms.
+        </p>
+
+        <div
+          data-reveal
+          data-delay="0.28"
+          class="mt-9 flex flex-col gap-3 sm:flex-row"
+        >
+          <a href="./contact.html" class="btn btn-white text-primary-900 font-semibold px-7 py-3.5">
+            Book a Technical Triage Call
+          </a>
+          <a href="./services.html" class="btn btn-ghost px-7 py-3.5">
+            View Services
+            <svg class="size-4" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <!-- Trust indicators -->
+        <div data-reveal data-delay="0.36" class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2">
+          <span class="flex items-center gap-2 text-tagline-3 text-white/45">
+            <svg class="size-3.5 text-gold" viewBox="0 0 14 14" fill="none"><path d="M7 1l1.5 4h4.5l-3.5 2.5 1.5 4.5L7 9.5 3 12l1.5-4.5L1 5.5h4.5z" fill="#C49A1E"/></svg>
+            25+ years experience
+          </span>
+          <span class="flex items-center gap-2 text-tagline-3 text-white/45">
+            <svg class="size-3.5 text-gold" viewBox="0 0 14 14" fill="none"><path d="M7 1l1.5 4h4.5l-3.5 2.5 1.5 4.5L7 9.5 3 12l1.5-4.5L1 5.5h4.5z" fill="#C49A1E"/></svg>
+            1000s of engineers and operatives serviced
+          </span>
+          <span class="flex items-center gap-2 text-tagline-3 text-white/45">
+            <svg class="size-3.5 text-gold" viewBox="0 0 14 14" fill="none"><path d="M7 1l1.5 4h4.5l-3.5 2.5 1.5 4.5L7 9.5 3 12l1.5-4.5L1 5.5h4.5z" fill="#C49A1E"/></svg>
+            Packt published author
+          </span>
+        </div>
+      </div>
+
+      <!-- Right: dashboard visual -->
+      <div data-reveal data-delay="0.2" data-direction="right" class="hidden lg:block">
+        <div class="relative">
+          <!-- Glow behind card -->
+          <div class="absolute inset-0 rounded-2xl bg-primary-500/20 blur-2xl scale-95 translate-y-4"></div>
+
+          <!-- Main dashboard card -->
+          <div class="relative rounded-2xl border border-white/10 bg-neutral-950/70 shadow-2xl backdrop-blur-sm overflow-hidden">
+
+            <!-- Card header bar -->
+            <div class="flex items-center justify-between border-b border-white/8 px-5 py-3.5">
+              <div class="flex items-center gap-2">
+                <div class="size-2.5 rounded-full bg-gold"></div>
+                <span class="text-tagline-3 font-medium text-white/60">Project Delivery</span>
+              </div>
+              <span class="rounded-full bg-green-500/20 px-2.5 py-0.5 text-[10px] font-medium text-green-400">Active</span>
+            </div>
+
+            <!-- Project rows -->
+            <div class="divide-y divide-white/5 px-5">
+
+              <!-- Row 1 -->
+              <div class="py-4">
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="text-tagline-3 font-medium text-white/80">Construction Workforce Management App</span>
+                  <span class="text-[10px] font-semibold text-green-400 uppercase tracking-wider">Live</span>
+                </div>
+                <div class="mb-1.5 flex items-center gap-3">
+                  <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
+                    <div class="h-full w-[92%] rounded-full bg-linear-[90deg,#16a34a,#4ade80]"></div>
+                  </div>
+                  <span class="text-[10px] text-white/40 tabular-nums">1000s</span>
+                </div>
+                <div class="flex gap-1.5">
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">Android</span>
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">iOS</span>
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">Web</span>
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">Flutter</span>
+                </div>
+              </div>
+
+              <!-- Row 2 -->
+              <div class="py-4">
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="text-tagline-3 font-medium text-white/80">ERP / WMS Modernisation</span>
+                  <span class="text-[10px] font-semibold text-green-400 uppercase tracking-wider">Live</span>
+                </div>
+                <div class="mb-1.5 flex items-center gap-3">
+                  <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
+                    <div class="h-full w-[100%] rounded-full bg-linear-[90deg,#16a34a,#4ade80]"></div>
+                  </div>
+                  <span class="text-[10px] text-white/40 tabular-nums">Multi-site</span>
+                </div>
+                <div class="flex gap-1.5">
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">ERP</span>
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">WMS</span>
+                  <span class="rounded bg-primary-800/40 px-1.5 py-0.5 text-[10px] text-primary-300">MRP</span>
+                </div>
+              </div>
+
+              <!-- Row 3 -->
+              <div class="py-4">
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="text-tagline-3 font-medium text-white/80">AI Workflow Platform</span>
+                  <span class="text-[10px] font-semibold text-gold uppercase tracking-wider">Deployed</span>
+                </div>
+                <div class="mb-1.5 flex items-center gap-3">
+                  <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
+                    <div class="h-full w-[85%] rounded-full bg-linear-[90deg,#16a34a,#4ade80]"></div>
+                  </div>
+                  <span class="text-[10px] text-white/40 tabular-nums">FlowStudio</span>
+                </div>
+                <div class="flex gap-1.5">
+                  <span class="rounded bg-gold/15 px-1.5 py-0.5 text-[10px] text-gold">React</span>
+                  <span class="rounded bg-gold/15 px-1.5 py-0.5 text-[10px] text-gold">Rust</span>
+                  <span class="rounded bg-gold/15 px-1.5 py-0.5 text-[10px] text-gold">LLM</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Card footer -->
+            <div class="border-t border-white/8 bg-white/3 px-5 py-3 flex items-center justify-between">
+              <div class="flex gap-4">
+                <div class="text-center">
+                  <p class="text-tagline-3 font-bold text-gold m-0">25+</p>
+                  <p class="text-[10px] text-white/40 m-0">Years</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-tagline-3 font-bold text-primary-400 m-0">6+</p>
+                  <p class="text-[10px] text-white/40 m-0">Industries</p>
+                </div>
+              </div>
+              <a href="./case-studies.html" class="rounded-full bg-primary-600/20 px-3 py-1 text-[10px] font-medium text-primary-300 hover:bg-primary-600/30 transition-colors">
+                View all →
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Floating accent cards -->
+          <div class="absolute -bottom-4 -right-5 rounded-xl border border-white/10 bg-neutral-900/90 px-4 py-3 shadow-xl backdrop-blur-sm">
+            <p class="text-[10px] text-white/40 m-0 mb-0.5">HPC Power System</p>
+            <p class="text-tagline-3 font-semibold text-white m-0">&lt;1ms latency</p>
+            <p class="text-[10px] text-primary-400 m-0">Rust · gRPC · Data centre</p>
+          </div>
+
+          <div class="absolute -top-4 -left-5 rounded-xl border border-gold/20 bg-neutral-900/90 px-4 py-3 shadow-xl backdrop-blur-sm">
+            <p class="text-[10px] text-white/40 m-0 mb-0.5">Packt Published</p>
+            <p class="text-tagline-3 font-semibold text-gold m-0">Technical Author</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scroll cue -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 text-white/25">
+    <span class="text-tagline-3">scroll</span>
+    <svg class="size-3.5 animate-bounce" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+/* ========== PROVOLVE BUTTONS ========== */
+
+@utility btn {
+  @apply relative inline-flex cursor-pointer items-center justify-center gap-2 rounded-full px-6 py-3 text-tagline-1 font-medium transition-all duration-300 ease-out select-none;
+}
+
+@utility btn-primary {
+  @apply bg-primary-600 text-white hover:bg-primary-800 hover:-translate-y-0.5 shadow-1;
+}
+
+@utility btn-primary-lg {
+  @apply bg-primary-600 text-white hover:bg-primary-800 hover:-translate-y-0.5 shadow-1 px-8 py-3.5;
+}
+
+@utility btn-ghost {
+  @apply border border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 hover:-translate-y-0.5;
+}
+
+@utility btn-outline {
+  @apply border border-primary-600 bg-transparent text-primary-600 hover:bg-primary-600 hover:text-white hover:-translate-y-0.5;
+}
+
+@utility btn-white {
+  @apply bg-white text-primary-900 hover:bg-neutral-50 hover:-translate-y-0.5 shadow-2;
+}
+
+@utility btn-white-lg {
+  @apply bg-white text-primary-900 hover:bg-neutral-50 hover:-translate-y-0.5 shadow-2 px-8 py-3.5;
+}
+
+@utility btn-dark {
+  @apply bg-neutral-950 text-white hover:bg-neutral-900 hover:-translate-y-0.5;
+}
+
+@utility btn-sm {
+  @apply px-4 py-2 text-tagline-2;
+}

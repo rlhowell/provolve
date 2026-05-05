@@ -1,0 +1,6 @@
+/* Default body and typography */
+body {
+  @apply font-inter-tight antialiased;
+  color: #73787e;
+  background-color: #f7f9fa;
+}
