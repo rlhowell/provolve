@@ -43,7 +43,7 @@ exports.contactEmail = async (req, res) => {
   const textBody = [
     `Name:    ${name}`,
     `Email:   ${email}`,
-    `Company: ${company || '—'}`,
+    `Company: ${company || '-'}`,
     `Service: ${serviceLabel}`,
     '',
     message,
@@ -53,7 +53,7 @@ exports.contactEmail = async (req, res) => {
     <table style="font-family:sans-serif;font-size:14px;color:#333;border-collapse:collapse;width:100%;max-width:600px;">
       <tr><td style="padding:8px 12px;background:#f4f4f4;font-weight:600;width:100px;">Name</td><td style="padding:8px 12px;">${esc(name)}</td></tr>
       <tr><td style="padding:8px 12px;background:#f4f4f4;font-weight:600;">Email</td><td style="padding:8px 12px;"><a href="mailto:${esc(email)}">${esc(email)}</a></td></tr>
-      <tr><td style="padding:8px 12px;background:#f4f4f4;font-weight:600;">Company</td><td style="padding:8px 12px;">${esc(company || '—')}</td></tr>
+      <tr><td style="padding:8px 12px;background:#f4f4f4;font-weight:600;">Company</td><td style="padding:8px 12px;">${esc(company || '-')}</td></tr>
       <tr><td style="padding:8px 12px;background:#f4f4f4;font-weight:600;">Service</td><td style="padding:8px 12px;">${esc(serviceLabel)}</td></tr>
       <tr><td colspan="2" style="padding:16px 12px;white-space:pre-wrap;">${esc(message)}</td></tr>
     </table>
