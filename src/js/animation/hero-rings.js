@@ -1,9 +1,9 @@
 const NS = 'http://www.w3.org/2000/svg';
 
 const RINGS = [
-  { color: '#4F5358', opacity: 0.55, delay: 0    },
-  { color: '#8A9096', opacity: 0.45, delay: 900  },
-  { color: '#C49A1E', opacity: 0.70, delay: 1800 },
+  { color: '#4F5358', opacity: 0.55, delay: 0   },
+  { color: '#8A9096', opacity: 0.45, delay: 120 },
+  { color: '#C49A1E', opacity: 0.70, delay: 240 },
 ];
 
 const START_R  = 50;
