@@ -145,7 +145,7 @@ Field-service transformation
 
 Replaced legacy field-service systems with a synchronised Android application and aftercare contract platform for 300 engineers across 13 branches.
 
-ERP/WMS operational platform
+ERP/WMS operational platformclade
 
 Designed and delivered ERP, WMS, MRP, ordering, accounting, and product configuration systems for multi-facility commercial operations.
 
